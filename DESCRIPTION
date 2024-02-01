@@ -1,0 +1,17 @@
+Package: cmfts
+Type: Package
+Title: cmfts: Complexity Measures and Features for Times Series classification
+Version: 0.1.0
+Date: 2019-01-17
+Author: Francisco Javier Baldan Lozano <fjbaldan@decsai.ugr.es>
+Maintainer: Francisco Javier Baldan Lozano <fjbaldan@decsai.ugr.es>
+Description: Gets the characteristics of a dataframe composed by
+  time series. Each row contains the values of a time series. The 
+  first column contains the identifier of each time series.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: combinat
+Imports:
+  R.utils, pracma, entropy, statcomp, e1071, parallel, tsExpKit, tsfeatures, stats
+RoxygenNote: 6.1.1
